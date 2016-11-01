@@ -4,7 +4,7 @@ public class FileNerd {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		Scanner sf = new Scanner(new File("C:\\temp_Larry\\NerdData.txt"));
+		Scanner sf = new Scanner(new File("U:\\Workshop\\FileNerd\\src\\FileNerd.txt"));
 		String text[] = new String[5];
 		int maxIndx = -1;
 		while(sf.hasNext()){
